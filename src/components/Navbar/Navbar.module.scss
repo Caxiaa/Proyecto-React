@@ -1,0 +1,33 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        li{
+            margin-top: 20px;
+            a{
+                font-size: 20px;
+                font-family:'Consolas';
+                
+            }
+        }
+    }
+}
+
+
+.logo{
+    padding-left: 20px;
+    img{
+        height: 8.5vh;
+    }
+}
+
+.nav_list{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        color: #007de2;
+    }
+}
