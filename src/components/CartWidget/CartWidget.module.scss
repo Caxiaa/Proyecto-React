@@ -1,0 +1,20 @@
+.cart_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: end;
+    background-color: #b1b1b18f;
+    border-radius: 20%;
+    padding-right: 10px;
+    width: 60px;
+    i{
+        font-size: 30px;
+    }
+    .span_cart{
+        font-family: 'Consolas';
+        color: blac;
+        font-size: 20px;
+        padding: 5px;
+    }
+}

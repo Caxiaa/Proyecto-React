@@ -1,3 +1,4 @@
+import CartWidget from '../CartWidget/CartWidget';
 import estilo from './Navbar.module.scss';
 
 const Navbar = () =>{
@@ -17,6 +18,7 @@ const Navbar = () =>{
                     <a href="https://google.com">Preguntas Frecuentes</a>
                 </li>
             </ul>
+            <CartWidget/>
         </nav>
     );
 }
