@@ -7,6 +7,9 @@ const Navbar = () =>{
             <div className={estilo.logo}>
                 <img src="logo_small.png"></img>
             </div>
+            <div className={estilo.navbar_container}>
+                <input type="search" placeholder='Buscar producto...'></input>
+            </div>
             <ul className={estilo.nav_list}>
                 <li>
                     <a href="https://google.com">Productos</a>

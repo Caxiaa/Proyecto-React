@@ -1,8 +1,19 @@
+import Cards from '../Cards/Cards';
+import estilo from './ItemListContainer.module.scss';
+
 const ItemListContainer = (props) =>{
+
+    const {title} = props;
     return(
-        <div>
-            <h3>{props.saludo}</h3>
-        </div>
+        <main>
+            <div className={estilo.title_container}>
+                <h1>{title}</h1>
+            </div>
+            <div className={estilo.subtitle_container}>
+                <h2>Linea Jordan</h2>
+            </div>
+            <Cards/>
+        </main>
     );
 }
 

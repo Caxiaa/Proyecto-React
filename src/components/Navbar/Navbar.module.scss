@@ -4,21 +4,36 @@
     .logo{
         padding-left: 20px;
         img{
-            height: 8vh;
+            height: 10vh;
+        }
+    }
+    .navbar_container{
+        display: flex;
+        align-items: center;
+        input{
+            width: 370px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            font-size: 14px;
+            padding: 12px;
+            border-radius: 15px;
+            border: none;
+        }&:target{
+            border: none;
         }
     }
     .nav_list{
         display: flex;
-        justify-content: space-around;
+        justify-content:space-evenly;
         list-style-type: none;
         width: 60%;
         li{
             margin-top: 20px;
             a{
                 font-size: 20px;
-                font-family:'Consolas';
+                font-family:'Franklin Gothic';
                 text-decoration: none;
-                color: #007de2;
+                color: black;
             }
         }
     }

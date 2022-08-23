@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Header/>
-      <ItemListContainer saludo="Hola!"/>
+      <ItemListContainer title="Encontra todos los estilos y talles!"/>
     </>
   );
 }
