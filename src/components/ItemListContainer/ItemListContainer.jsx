@@ -6,6 +6,9 @@ const ItemListContainer = (props) =>{
     const {title} = props;
     return(
         <main>
+            <div className={estilo.portada}>
+                <img src='pexels-shane-aldendorff-786003.jpg'></img>
+            </div>
             <div className={estilo.title_container}>
                 <h1>{title}</h1>
             </div>

@@ -14,3 +14,13 @@
         font-size: 20px;
     }
 }
+
+.portada{
+    display: flex;
+    justify-content: center;
+    img{
+        border: 1px solid black;
+        width: 90%;
+        height: 50%;
+    }
+}

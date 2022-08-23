@@ -4,17 +4,25 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: end;
-    background-color: #b1b1b18f;
     border-radius: 20%;
     padding-right: 10px;
     width: 60px;
+    height: 70px;
+    // background-color: rgb(224, 224, 224);
     i{
-        font-size: 30px;
+        font-size: 26px;
     }
     .span_cart{
-        font-family: 'Consolas';
-        color: blac;
-        font-size: 20px;
+        font-family: 'Franklin Gothic';
+        color: black;
+        font-size: 16px;
         padding: 5px;
     }
+    .cart_products{
+        width: 20px;
+        margin-right: 5px;
+        background-color: black;
+        color: white;
+        cursor:pointer;
+    }  
 }

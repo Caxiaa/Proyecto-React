@@ -1,0 +1,28 @@
+.prenav_container{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 30px;
+    .login_button{
+        margin-right: 15px;
+        button{
+            background-color: transparent;
+            border: none;
+            font-size: 15px;
+        }span:hover{
+            cursor: pointer;
+        }
+    }
+    .signup_button{
+        margin-right: 15px;
+        padding-left: 15px;
+        button{
+            background-color: transparent;
+            border: none;
+            font-size: 15px;
+        }span:hover{
+            cursor: pointer;
+        }
+    }
+}
