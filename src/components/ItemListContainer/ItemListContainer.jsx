@@ -4,6 +4,10 @@ import estilo from './ItemListContainer.module.scss';
 
 const ItemListContainer = (props) =>{
 
+    const onAdd = ()=>{
+        alert("Producto agregado al carrito!");
+    }
+
     const {title} = props;
     return(
         <main>
@@ -13,7 +17,7 @@ const ItemListContainer = (props) =>{
             <div className={estilo.title_container}>
                 <h1>{title}</h1>
             </div>
-            <Counter/>
+            <Counter stock={10} initial={1} onAdd={onAdd}/>
             <div className={estilo.subtitle_container}>
                 <h2>Linea Jordan</h2>
             </div>

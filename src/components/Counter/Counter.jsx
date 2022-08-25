@@ -1,19 +1,19 @@
 import React, {useState} from "react";
 import estilo from './Counter.module.scss';
 
-const Counter = () =>{
-    const [count, setCount] = useState(0);
+const Counter = ({stock,initial,onAdd}) =>{
+    const [count, setCount] = useState(initial);
 
     const sumar = () =>{
-        if(count == 10){
+        if(count == stock){
             alert("No puedes sumar mas de 10 productos.");
         }else{
             setCount(count+1);
         }
     };
     const restar = () =>{
-        if(count == 0){
-            alert("El contador no puede estar negativo.")
+        if(count == 1){
+            alert("No puedes tener 0 productos.");
         }else{
             setCount(count-1);
         }
@@ -24,6 +24,7 @@ const Counter = () =>{
             <span className={estilo.counter_span}>Contador:{count}</span>
             <button onClick={restar} className={estilo.cart_products}>-</button>
             <button onClick={sumar} className={estilo.cart_products}>+</button>
+            <button onClick={onAdd}>Agregar al carrito</button>
         </div>
     );
 }
