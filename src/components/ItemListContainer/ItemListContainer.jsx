@@ -1,4 +1,4 @@
-import Cards from '../Cards/Cards';
+import CardList from '../CardList/CardList';
 import Counter from '../Counter/Counter';
 import estilo from './ItemListContainer.module.scss';
 
@@ -17,7 +17,7 @@ const ItemListContainer = (props) =>{
             <div className={estilo.subtitle_container}>
                 <h2>Linea Jordan</h2>
             </div>
-            <Cards/>
+            <CardList/>
         </main>
     );
 }
