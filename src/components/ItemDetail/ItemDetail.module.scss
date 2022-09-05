@@ -1,0 +1,26 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    .card{
+        display: flex;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        align-items: center;
+        .imgCard{
+            height: 110%;
+            border-right: 1px solid black;
+        }
+        .infoCard{
+            padding-left: 20px;
+            text-align: center;
+            padding: 5px;
+            font-family: 'Franklin Gothic Medium';
+            button{
+                margin-top: 30px;
+                padding: 10px;
+            }
+        }
+    }
+}

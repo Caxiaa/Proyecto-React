@@ -6,7 +6,7 @@ const Counter = ({stock,initial,onAdd}) =>{
 
     const sumar = () =>{
         if(count == stock){
-            alert("No puedes sumar mas de 10 productos.");
+            alert(`No puedes sumar mas de ${stock} productos.`);
         }else{
             setCount(count+1);
         }

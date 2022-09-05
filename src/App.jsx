@@ -1,12 +1,14 @@
 import Header from './components/Header/Header';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Main from './components/Main/Main';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
-  return (
-    <>
+  return (    
+    <BrowserRouter>
       <Header/>
-      <ItemListContainer title="Todos los estilos y talles!"/>
-    </>
+      <Main/>
+    </BrowserRouter>
   );
 }
 

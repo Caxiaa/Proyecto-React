@@ -4,11 +4,11 @@ const PreNav = () =>{
     return (
         <div className={estilo.prenav_container}>
             <div className={estilo.login_button}>
-                <button><span>Iniciar Sesion</span></button>
+                <button><span>Login</span></button>
             </div>
             <span>|</span>
             <div className={estilo.signup_button}>
-                <button><span>Registrate</span></button>
+                <button><span>Register</span></button>
             </div>
         </div>
     );

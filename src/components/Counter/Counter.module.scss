@@ -1,9 +1,16 @@
 .counter_container{
+    display: inline-block;
+    .counter_span{
+        font-family: 'Franklin Gothic Medium';
+    }
     .cart_products{
-        width: 20px;
-        margin-right: 5px;
-        background-color: black;
-        color: white;
+        width: 50px;
+        margin: 8px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         cursor:pointer;
+        &:hover{
+            background-color: rgb(190, 190, 190);
+        }
     }  
 }
