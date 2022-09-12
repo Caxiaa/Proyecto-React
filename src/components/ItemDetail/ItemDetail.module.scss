@@ -9,8 +9,10 @@
         padding: 20px;
         align-items: center;
         .imgCard{
-            height: 110%;
             border-right: 1px solid black;
+            img{
+                object-fit: cover;
+            }
         }
         .infoCard{
             padding-left: 20px;

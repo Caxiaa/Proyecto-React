@@ -1,15 +1,19 @@
 import estilo from './ItemDetail.module.scss';
 import React from "react";
 import Counter from '../Counter/Counter';
+import { useContext } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { CartContext } from '../Context/CartContext';
 
 const ItemDetail = ({product}) =>{
-
     const [count, setCount] = useState(0);
+
+    const { addItem } = useContext(CartContext);
 
     const onAdd = (count) =>{
         setCount(count);
+        addItem(product,count);
     }
 
     return(
