@@ -16,9 +16,7 @@ const ItemListContainer = (props) =>{
                     <h1>{title}</h1>
                 </div>
                 {/* <Counter stock={10} initial={1} onAdd={onAdd}/> */}
-                <div className={estilo.subtitle_container}>
-                    <h2>Linea Jordan</h2>
-                </div>
+                <hr></hr>
                 <CardList/>
         </div>
     );

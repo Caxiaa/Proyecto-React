@@ -4,9 +4,9 @@ export const Array = [
         model: "Air Jordan 1 Zoom CMFT",
         price: 150,
         stock: 10,
-        category: "Men",
+        category: "Man",
         brand:"Nike",
-        thumbnail: "https://static.nike.com/a/images/t_default/30b29f29-321d-4360-a03a-611188bc0cfc/calzado-air-jordan-1-zoom-cmft-V4sQ1r.png"
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/502e2c69-b19a-4ac2-a7bd-c811afd8a622/air-jordan-1-zoom-cmft-shoes-0d4Vf0.png"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const Array = [
         stock: 3,
         category: "Woman",
         brand:"Nike",
-        thumbnail: "https://static.nike.com/a/images/t_default/4e9b9d43-0379-4b0f-8798-5ad5cccfbf13/calzado-air-jordan-1-mid-se-6Dvgl8.png"
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/036a324a-a847-4d3c-9607-fa98210c2bcc/air-jordan-1-mid-se-mens-shoes-bZLgb7.png"
     },
     {
         id: 3,
@@ -24,16 +24,16 @@ export const Array = [
         stock: 5,
         category: "Woman",
         brand:"Nike",
-        thumbnail: "https://static.nike.com/a/images/t_default/0cd1a859-a4b8-420b-8d2c-6f6712dfbd15/calzado-air-jordan-1-mid-se-hlx5q2.png"
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4e9b9d43-0379-4b0f-8798-5ad5cccfbf13/air-jordan-1-mid-se-mens-shoes-6Dvgl8.png"
     },
     {
         id: 4,
         model: "Air Jordan 1 Retro High OG",
         price: 130,
         stock: 4,
-        category: "Men",
+        category: "Man",
         brand:"Nike",
-        thumbnail: "https://static.nike.com/a/images/t_default/585f399c-2ae5-4e12-9a4e-df531c0de400/calzado-air-jordan-1-retro-high-og-llwS2v.png"
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/087dbd2f-40a4-4265-95b4-66822016de39/air-jordan-1-retro-high-og-boys-shoe-F01BV6.png"
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const Array = [
         stock: 13,
         category: "Kids",
         brand:"Nike",
-        thumbnail: "https://static.nike.com/a/images/t_default/350ae340-1871-484f-8555-22a449ad9c2f/calzado-grandes-air-jordan-1-low-r5Jpwp.png"
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/16fd1887-d7b4-4de6-80cb-d0ecba68502f/air-jordan-1-low-big-kids-shoes-5BDhj6.png"
     },
     {
         id: 6,
@@ -51,6 +51,33 @@ export const Array = [
         stock: 2,
         category: "Kids",
         brand:"Nike",
-        thumbnail: "https://static.nike.com/a/images/t_default/0253d3b6-fa75-43ab-9584-e5890e669222/calzado-talla-grande-air-jordan-legacy-312-low-RxRScn.png"
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ee285cff-530f-466e-aeda-123aba7689c9/jordan-legacy-312-low-infant-toddler-shoes-S0BsBH.png"
+    },
+    {
+        id: 7,
+        model: "Nike Air Force 1 '07 LV8",
+        price: 130,
+        stock: 7,
+        category: "Man",
+        brand:"Nike",
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/94bdb62d-c296-4d6a-ae6b-c54dfe2b4acf/air-force-1-07-lv8-mens-shoes-1C4L8V.png"
+    },
+    {
+        id: 8,
+        model: "Nike Air Force 1 Low Retro QS",
+        price: 150,
+        stock: 3,
+        category: "Man",
+        brand:"Nike",
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3ed444e1-aa65-46bc-b89d-f084b0a62505/air-force-1-low-retro-qs-mens-shoes-XZG2zG.png"
+    },
+    {
+        id: 9,
+        model: "Nike Air Force 1 Shadow",
+        price: 150,
+        stock: 6,
+        category: "Woman",
+        brand:"Nike",
+        thumbnail: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/27a70d37-7355-4368-9eb4-42d893acdcc2/air-force-1-shadow-womens-shoes-kTgn9J.png"
     }
 ]

@@ -11,20 +11,21 @@ const Counter = ({stock,initial,onAdd}) =>{
             setCount(count+1);
         }
     };
+
     const restar = () =>{
         if(count == 1){
             alert("No puedes tener 0 productos.");
         }else{
             setCount(count-1);
         }
-    }
+    };
 
     return(
         <div className={estilo.counter_container}>
             <span className={estilo.counter_span}>Contador:{count}</span>
             <button onClick={restar} className={estilo.cart_products}>-</button>
             <button onClick={sumar} className={estilo.cart_products}>+</button>
-            <button onClick={onAdd}>Agregar al carrito</button>
+            <button onClick={()=>onAdd(count)}>Agregar al carrito</button>
         </div>
     );
 }

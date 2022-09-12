@@ -1,29 +1,31 @@
 .card {
-    border: 1px solid rgb(223, 223, 223);
-    width: 30vh;
-    margin: 10px;
     padding: 8px;
     text-align: center;
-    box-shadow: 6px 10px 10px rgb(95, 95, 95);
-    img {
-        width: 80%;
+    width: 80%;
+    height: 100%;
+    .img_card{
+        background-color: rgb(230, 230, 230);
+        width: 100%;
+        img {
+            width: 80%;
+        }
     }
 
     h2 {
-        font-family: 'Tahoma';
+        font-family:'Good Times';
         font-size: 20px;
     }
 
     h4 {
         padding: 5px;
-        font-family: 'Tahoma';
-        font-size: 15px;
+        font-family: 'Good Times';
+        font-size:15px;
     }
 
     .addCart {
         background-color: white;
         color: black;
-        font-family: 'Tahoma';
+        font-family: 'Franklin Gothic Book';
         border-radius: 5px;
         border: 1px solid black;
         padding: 5px;
