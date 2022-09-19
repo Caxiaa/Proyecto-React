@@ -15,7 +15,7 @@ const CartProducts = (props) =>{
             </div>
             <div className={estilos.info_container}>
                 <h1>{products.model}</h1>
-                <h4>Precio unidad: {products.price}</h4>
+                <h4>Precio unidad: ${products.price}</h4>
                 <h4>Cantidad: {products.count}</h4>
                 <button onClick={()=>removeItem(products.id)}>Eliminar Producto</button>
             </div>

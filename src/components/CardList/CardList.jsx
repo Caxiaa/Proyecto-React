@@ -13,7 +13,7 @@ const CardList = () =>{
             const prodFiltrados = Array.filter((prod)=>prod.category === categoryId);
             setTimeout(()=>{
                 res(categoryId ? prodFiltrados : Array);
-            },(1000));
+            },(300));
         })
         getShoes
         .then((data)=>{

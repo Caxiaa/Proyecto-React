@@ -9,12 +9,14 @@ import { CartContext } from '../Context/CartContext';
 const ItemDetail = ({product}) =>{
     const [count, setCount] = useState(0);
 
-    const { addItem } = useContext(CartContext);
+    const { addItem,getProdQuantity } = useContext(CartContext);
 
     const onAdd = (count) =>{
         setCount(count);
         addItem(product,count);
     }
+
+    const quantity = getProdQuantity(product.id);
 
     return(
         <div className={estilo.cardContainer}>
@@ -28,7 +30,7 @@ const ItemDetail = ({product}) =>{
                     <h4>{product.stock} unidades disponibles.</h4>
                     {
                         count === 0 ?
-                        <Counter stock={product.stock} initial={1} onAdd={onAdd}/>
+                        <Counter stock={product.stock} initial={quantity} onAdd={onAdd}/>
                         :
                         <Link to="/cart">Ver en carrito</Link>
                     }

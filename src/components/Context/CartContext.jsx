@@ -42,7 +42,31 @@ const CartProvider = ({children}) =>{
         return cart.some((prod)=>prod.id === id);
     }
 
-    return <CartContext.Provider value={{addItem,cart,removeItem,clear}}>
+    const totalPrice = () =>{
+        let acumulador = 0; 
+
+        cart.map((prod)=>{
+            acumulador += prod.price * prod.count; 
+        })
+
+        return acumulador;
+    }
+
+    const getProdQuantity = (id) =>{
+        const product = cart.find((prod) => prod.id === id);
+        return product?.count;
+    }
+
+    const totalQuantity = () =>{
+        let acumulador = 0;
+
+        cart.map((prod)=>{
+            acumulador += prod.count;
+        })
+        return acumulador;
+    }
+
+    return <CartContext.Provider value={{addItem,cart,removeItem,clear,totalPrice,getProdQuantity,totalQuantity}}>
                 {children}
             </CartContext.Provider>
 }
