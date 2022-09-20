@@ -2,6 +2,8 @@ import React, {useState,useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import { Array } from '../Mocks/array_shoes';
 import ItemDetail from '../ItemDetail/ItemDetail';
+import { db } from '../../firebaseConfig';
+import { getDoc, doc, collection } from 'firebase/firestore';
 
 const ItemDetailContainer = () =>{
     const [shoes,setShoes] = useState([]);
@@ -9,18 +11,17 @@ const ItemDetailContainer = () =>{
 
     
     useEffect(()=>{
-        const getProd = new Promise((res,rej)=>{
-            const prod = Array.find((prod)=>prod.id===Number(idProd));
-            setTimeout(() => {
-                res(prod);
-            }, 300);
-        })
-        getProd
+        const itemsCollection = collection(db,"productos");
+        const ref = doc(itemsCollection, idProd);
+        getDoc(ref)
         .then((data)=>{
-            setShoes(data);
+            setShoes({
+                id: data.id,
+                ...data.data()
+            })
         })
-        .catch((error)=>{
-            console.log(error);
+        .catch((err)=>{
+            console.log(err);
         })
     },[idProd]);
 
