@@ -1,6 +1,5 @@
 import React, {useState,useEffect} from 'react';
 import { useParams } from 'react-router-dom';
-import { Array } from '../Mocks/array_shoes';
 import ItemDetail from '../ItemDetail/ItemDetail';
 import { db } from '../../firebaseConfig';
 import { getDoc, doc, collection } from 'firebase/firestore';

@@ -1,6 +1,5 @@
 import React, {useState,useEffect} from 'react';
 import Cards from '../Cards/Cards';
-import { Array } from '../Mocks/array_shoes';
 import estilo from './CardList.module.scss';
 import { useParams } from 'react-router-dom';
 import { collection, getDocs, query, where } from 'firebase/firestore';
