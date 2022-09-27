@@ -5,7 +5,6 @@
 <br>
 
 ## De que se trata Tus Shoes?🤔
-<hr>
 
 Tus Shoes es una tienda online de zapatillas exclusivas! Vas a poder encontrar tu estilo y diseño favorito de calzado.
 <hr>
@@ -13,7 +12,7 @@ Tus Shoes es una tienda online de zapatillas exclusivas! Vas a poder encontrar t
 ## Tecnologias utilizadas en este proyecto👩‍💻
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,sass,react,firebase)](https://skillicons.dev)
 
-<hr>
+<br>
 
 ## Pasos para iniciar el programa📃
 
@@ -30,7 +29,6 @@ Iniciamos la app
 `$ npm start`
 
 ## Deploy
-<hr>
 
 [![My Skills](https://skillicons.dev/icons?i=vercel)](https://skillicons.dev)
 
