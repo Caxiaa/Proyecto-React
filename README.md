@@ -7,7 +7,7 @@
 ## De que se trata Tus Shoes?🤔
 
 Tus Shoes es una tienda online de zapatillas exclusivas! Vas a poder encontrar tu estilo y diseño favorito de calzado.
-<hr>
+
 
 ## Tecnologias utilizadas en este proyecto👩‍💻
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,sass,react,firebase)](https://skillicons.dev)
