@@ -30,7 +30,7 @@ Iniciamos la app
 
 ## Deploy
 
-[![My Skills](https://skillicons.dev/icons?i=vercel)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vercel)](https://proyecto-react-ee2w-7k0r8246y-caxiaa.vercel.app)
 
 <br>
 
