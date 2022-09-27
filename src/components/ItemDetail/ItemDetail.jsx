@@ -26,7 +26,7 @@ const ItemDetail = ({product}) =>{
                 </div>
                 <div className={estilo.infoCard}>
                     <h1>{product.model}</h1>
-                    <h3>${product.price}</h3>
+                    <h4>${product.price}</h4>
                     <h4>{product.stock} unidades disponibles.</h4>
                     {
                         count === 0 ?

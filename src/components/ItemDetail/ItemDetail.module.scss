@@ -1,24 +1,28 @@
 .cardContainer{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 20px;
     .card{
         display: flex;
-        border: 1px solid black;
-        border-radius: 10px;
         padding: 20px;
-        align-items: center;
+        align-items: start;
         .imgCard{
-            border-right: 1px solid black;
+            background-color: rgba(207, 207, 207, 0.322);
             img{
                 object-fit: cover;
             }
         }
         .infoCard{
             padding-left: 20px;
-            text-align: center;
-            padding: 5px;
-            font-family: 'Good Times ';
+            text-align: start;
+            padding: 20px;
+            font-family: 'Lucida Fax';
+            h1{
+                padding-bottom: 10px;
+            }
+            h4{
+                color: rgb(134, 134, 134);
+            }
             button{
                 margin-top: 30px;
                 padding: 10px;
